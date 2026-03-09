@@ -63,11 +63,6 @@ export default function SignUpScreen() {
   });
   const onSubmit = (data: SignUpForm) => {
     Alert.alert("Form Data", JSON.stringify(data, null, 2), [{ text: "OK" }]);
-    // Only validate password strength on submit, not on confirm password field
-    if (!data.confirmPassword) {
-      Alert.alert("Error", "Please confirm your password", [{ text: "OK" }]);
-      return;
-    }
   };
 
   return (
