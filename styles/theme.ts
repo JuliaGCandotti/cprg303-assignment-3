@@ -7,6 +7,8 @@ export const theme = {
     primary: "#2563eb",
     border: "#e5e7eb",
     error: "#dc2626",
+    errorBg: "#FF4D6A18",
+    borderError: "#f87171",
   },
   spacing: {
     screen: 20,
